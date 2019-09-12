@@ -186,7 +186,7 @@ to get the desired effect
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">{{session_fullname}}</a>
-                        <a href="#" class="d-block">Logout <i class="fa fa-sign-out-alt"></i></a>
+                        <a href="#" onclick="doLogout()" class="d-block">Logout <i class="fa fa-sign-out-alt"></i></a>
                     </div>
                 </div>
 
@@ -219,6 +219,17 @@ to get the desired effect
     <!-- ./wrapper -->
 
     <!-- REQUIRED SCRIPTS -->
+    <script>
+        function doLogout() {
+            $.ajax({
+                type: "GET",
+                url: "{{url_for('authorized.logout')}}",
+                success: function() {
+                    window.location.href = "{{url_for('authorized.login_page')}}";
+                }
+            });
+        }
+    </script>
 
 </body>
 

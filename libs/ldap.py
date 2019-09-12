@@ -15,7 +15,7 @@ class LDAP():
         try:
             self.connect = Connection(self.LDAP_SERVER, user='cn={user},dc=mservice,dc=org'.format(user=self.LDAP_USER), password=self.LDAP_PASS)
         except Exception as e:
-            logger.error(f"LDAP Error {e}")
+            logger.error('[{}][{}]{}'.format(LDAP.__name__, self.__create_connection.__name__, e))
     
     def authen(self, username, password):
         try:
@@ -25,5 +25,4 @@ class LDAP():
             else:
                 return False
         except Exception as e:
-            logger.error(f"LDAP Error {e}")
-            return False
+            logger.error('[{}][{}]{}'.format(LDAP.__name__, self.authen.__name__, e))

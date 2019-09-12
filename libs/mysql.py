@@ -26,11 +26,11 @@ class MySQL():
             if cnx:
                 self.connection = cnx
         except Exception as e:
-            logger.error(f"{e}")
+            logger.error('[{}][{}]{}'.format(MySQL.__name__, self.__create_connection.__name__, e))
         except Error as e:
-            logger.error(f"MySQL Error: {e}")
+            logger.error('[{}][{}]{}'.format(MySQL.__name__, self.__create_connection.__name__, e))
     
-    def select_data(self, query_string, params, fetch):
+    def select(self, query_string, fetch):
         
         if self.connection is None:
             self.__create_connection()
@@ -38,19 +38,19 @@ class MySQL():
         try:
             cursor = self.connection.cursor()
             if fetch == 'one':
-                cursor.execute(query_string, params)
+                cursor.execute(query_string)
                 return cursor.fetchone()
             elif fetch == 'many':
-                cursor.execute(query_string, params)
+                cursor.execute(query_string)
                 return cursor.fetchone()
             elif fetch == 'all':
-                cursor.execute(query_string, params)
+                cursor.execute(query_string)
                 return cursor.fetchall()
                 
         except Exception as e:
-            logger.error(f"{e}")
+            logger.error('[{}][{}]{}'.format(MySQL.__name__, self.select.__name__, e))
         except Error as e:
-            logger.error(f"MySQL Error: {e}")
+            logger.error('[{}][{}]{}'.format(MySQL.__name__, self.select.__name__, e))
         finally:
             if cursor:
                 cursor.close()

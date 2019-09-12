@@ -210,3 +210,89 @@
 2019-09-12 14:17:42,788 - INFO - {'status': True, 'code': 0, 'msg': ''}
 2019-09-12 14:20:00,986 - INFO - {'status': True, 'code': 0, 'msg': ''}
 2019-09-12 14:26:20,784 - INFO - Server start success!
+2019-09-12 15:06:45,170 - ERROR - (1054, "Unknown column 'duy.dinh' in 'where clause'")
+2019-09-12 15:06:45,170 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:07:17,910 - ERROR - (1054, "Unknown column 'duy.dinh' in 'where clause'")
+2019-09-12 15:07:17,910 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:07:52,057 - ERROR - MySQL Error: (1054, "Unknown column 'duy.dinh' in 'where clause'")
+2019-09-12 15:07:52,057 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:08:33,992 - ERROR - MySQL Error: (1054, "Unknown column 'duy.dinh' in 'where clause'")
+2019-09-12 15:08:33,992 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:09:21,571 - ERROR - MySQL Error: (1054, "Unknown column 'duy.dinh' in 'where clause'")
+2019-09-12 15:09:21,571 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:10:09,382 - INFO - Server start success!
+2019-09-12 15:10:11,505 - ERROR - MySQL Error: (1054, "Unknown column 'duy.dinh' in 'where clause'")
+2019-09-12 15:10:11,506 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:10:53,419 - ERROR - MySQL Error: (1054, "Unknown column 'duy.dinh' in 'where clause'")
+2019-09-12 15:10:53,420 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:11:27,048 - ERROR - MySQL Error: (1054, "Unknown column 'duy.dinh' in 'where clause'")
+2019-09-12 15:11:27,048 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:12:07,473 - INFO - select * from per_user_account where username = duy.dinh
+2019-09-12 15:12:07,504 - ERROR - MySQL Error: (1054, "Unknown column 'duy.dinh' in 'where clause'")
+2019-09-12 15:12:07,504 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:12:46,997 - INFO - select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:12:47,050 - INFO - duy.dinh
+2019-09-12 15:12:47,050 - INFO - $2y$10$ipwovR7UUuN0aV/PRJB/tOVRIpQAJpRUFP6DcIcsqiPwoEe22PNMC
+2019-09-12 15:12:47,050 - INFO - duy dinh
+2019-09-12 15:12:47,050 - INFO - 
+2019-09-12 15:12:47,051 - INFO - 
+2019-09-12 15:12:47,051 - INFO - 1
+2019-09-12 15:12:47,051 - INFO - 2019-05-17 11:38:31
+2019-09-12 15:12:47,051 - INFO - duy.phung
+2019-09-12 15:12:47,051 - INFO - 2019-06-05 11:31:08
+2019-09-12 15:12:47,051 - INFO - None
+2019-09-12 15:12:47,051 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:13:21,305 - INFO - ('duy.dinh', '$2y$10$ipwovR7UUuN0aV/PRJB/tOVRIpQAJpRUFP6DcIcsqiPwoEe22PNMC', 'duy dinh', '', '', 1, datetime.datetime(2019, 5, 17, 11, 38, 31), 'duy.phung', datetime.datetime(2019, 6, 5, 11, 31, 8), None)
+2019-09-12 15:13:21,305 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:22:18,538 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:23:02,098 - INFO - AuthorizedModels.__get_roles info: select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:23:02,098 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:23:40,177 - INFO - AuthorizedModels.<function AuthorizedModels.__get_roles at 0x7fbec91289d8> info: select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:23:40,177 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:23:51,838 - INFO - AuthorizedModels.__get_roles info: select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:23:51,838 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:24:10,002 - INFO - [AuthorizedModels][__get_roles]select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:24:10,003 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:24:50,282 - INFO - [AuthorizedModels][__get_roles]select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:24:50,282 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:25:32,805 - INFO - [AuthorizedModels][_get_roles]select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:25:32,806 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:26:43,592 - INFO - [AuthorizedModels][__get_roles]select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:26:43,592 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:27:37,015 - INFO - [AuthorizedModels][<built-in method rstrip of str object at 0x7fbd665485f0>]select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:27:37,015 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 15:32:54,890 - INFO - [AuthorizedModels][__get_roles]select * from per_user_account where username = 'duy.dinh'
+2019-09-12 15:32:54,891 - INFO - {'status': True, 'code': 0, 'msg': ''}
+2019-09-12 16:00:45,046 - ERROR - [MySQL][select](1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'account_status = 1' at line 1")
+2019-09-12 16:00:45,047 - INFO - [AuthorizedModels][__check_existed]select pua.username, pua.fullname, purm.role_id from per_user_account pua join per_user_role_map purm on pua.username = purm.username where pua.username = 'duy.dinh' account_status = 1 
+2019-09-12 16:00:45,047 - INFO - <SecureCookieSession {'fullname': 'admin', 'username': 'admin'}>
+2019-09-12 16:01:14,488 - ERROR - [AuthorizedModels][__check_existed]local variable 'e' referenced before assignment
+2019-09-12 16:01:14,488 - INFO - <SecureCookieSession {'fullname': 'admin', 'username': 'admin'}>
+2019-09-12 16:01:37,461 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:02:31,543 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:02:49,479 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:02:49,479 - INFO - <SecureCookieSession {'fullname': 'admin', 'username': 'admin'}>
+2019-09-12 16:04:36,249 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:04:36,249 - INFO - <SecureCookieSession {'fullname': 'admin', 'username': 'admin'}>
+2019-09-12 16:05:00,653 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:05:00,654 - INFO - {'username': 'duy.dinh', 'fullname': 'duy dinh', 'last_logged_in': 1568279100.6539564, 'roles': 'Admin', 'modules_permit_access': None}
+2019-09-12 16:08:41,217 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:08:41,218 - INFO - <SecureCookieSession {'fullname': 'admin', 'username': 'admin'}>
+2019-09-12 16:10:22,435 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:10:40,115 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:11:41,257 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:11:41,258 - INFO - username
+2019-09-12 16:11:41,258 - INFO - fullname
+2019-09-12 16:11:41,258 - INFO - last_logged_in
+2019-09-12 16:11:41,258 - INFO - roles
+2019-09-12 16:11:41,258 - INFO - modules_permit_access
+2019-09-12 16:11:41,258 - INFO - <SecureCookieSession {'fullname': 'admin', 'username': 'admin'}>
+2019-09-12 16:11:59,606 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:11:59,607 - INFO - <SecureCookieSession {'fullname': 'duy dinh', 'username': 'duy.dinh', 'last_logged_in': 1568279519, 'roles': 'Admin', 'modules_permit_access': None}>
+2019-09-12 16:19:33,034 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:19:33,035 - INFO - <SecureCookieSession {'fullname': 'duy dinh', 'last_logged_in': 1568279973, 'modules_permit_access': None, 'roles': 'Admin', 'username': 'duy.dinh'}>
+2019-09-12 16:27:50,418 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:29:51,786 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:29:51,815 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:29:51,816 - INFO - <SecureCookieSession {'fullname': 'duy dinh', 'last_logged_in': 1568280591, 'modules_permit_access': None, 'roles': 'Admin', 'username': 'duy.dinh'}>
+2019-09-12 16:31:08,926 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
