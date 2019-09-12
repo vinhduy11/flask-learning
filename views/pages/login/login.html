@@ -98,9 +98,7 @@
                         if (res.status == true) {
                             window.location.href = "{{ url_for('main.main_index')}}";
                         } else {
-                            toastr.error(res.msg)
-                            
-                            
+                            toastr.error(res.msg);
                         }
                     }
                 });
