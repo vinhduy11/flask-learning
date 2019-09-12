@@ -296,3 +296,83 @@
 2019-09-12 16:29:51,815 - INFO - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
 2019-09-12 16:29:51,816 - INFO - <SecureCookieSession {'fullname': 'duy dinh', 'last_logged_in': 1568280591, 'modules_permit_access': None, 'roles': 'Admin', 'username': 'duy.dinh'}>
 2019-09-12 16:31:08,926 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 16:50:04,058 - INFO - Server start success!
+2019-09-12 17:07:12,801 - DEBUG - [AuthorizedModels][__check_existed]None
+2019-09-12 17:11:04,611 - DEBUG - [AuthorizedModels][__check_existed]None
+2019-09-12 17:13:09,685 - DEBUG - [AuthorizedModels][__check_existed]None
+2019-09-12 17:15:45,659 - DEBUG - [AuthorizedModels][__check_existed]None
+2019-09-12 17:16:30,337 - DEBUG - [AuthorizedModels][__check_existed]None
+2019-09-12 17:17:26,746 - DEBUG - [AuthorizedModels][__check_existed]None
+2019-09-12 17:17:35,049 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:18:21,825 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:18:55,713 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:19:35,158 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:19:35,159 - DEBUG - [AuthorizedModels][__login_by_ldap]True
+2019-09-12 17:20:33,832 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:20:33,833 - DEBUG - [LDAP][authen]Server(host='', port=389, use_ssl=False, allowed_referral_hosts=[('*', True)], get_info='SCHEMA', mode='IP_V6_PREFERRED') - user: cn=duy.dinh,dc=mservice,dc=org - not lazy - unbound - closed - <no socket> - tls not started - not listening - SyncStrategy - internal decoder
+2019-09-12 17:20:33,833 - DEBUG - [AuthorizedModels][__login_by_ldap]True
+2019-09-12 17:22:19,411 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:22:19,412 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext - user: cn=duy.dinh,dc=mservice,dc=org - not lazy - unbound - closed - <no socket> - tls not started - not listening - SyncStrategy - internal decoder
+2019-09-12 17:22:19,412 - DEBUG - [AuthorizedModels][__login_by_ldap]True
+2019-09-12 17:24:37,347 - DEBUG - [AuthorizedModels][__check_existed]None
+2019-09-12 17:24:43,405 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:24:43,406 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext - user: cn=duy.dinh,dc=mservice,dc=org - not lazy - unbound - closed - <no socket> - tls not started - not listening - SyncStrategy - internal decoder
+2019-09-12 17:24:43,407 - ERROR - [LDAP][authen]unable to send message, socket is not open
+2019-09-12 17:24:43,407 - DEBUG - [AuthorizedModels][__login_by_ldap]None
+2019-09-12 17:26:29,395 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:26:29,396 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext - user: uid=duy.dinh,cn=users,dc=mservice,dc=org - not lazy - unbound - closed - <no socket> - tls not started - not listening - SyncStrategy - internal decoder
+2019-09-12 17:26:29,399 - ERROR - [LDAP][authen]unable to send message, socket is not open
+2019-09-12 17:26:29,399 - DEBUG - [AuthorizedModels][__login_by_ldap]None
+2019-09-12 17:28:24,056 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:28:24,057 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext
+2019-09-12 17:28:24,057 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext - user: uid=duy.dinh,cn=users,dc=mservice,dc=org - not lazy - unbound - closed - <no socket> - tls not started - not listening - SyncStrategy - internal decoder
+2019-09-12 17:28:24,058 - ERROR - [LDAP][authen]unable to send message, socket is not open
+2019-09-12 17:28:24,058 - DEBUG - [AuthorizedModels][__login_by_ldap]None
+2019-09-12 17:31:57,733 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:31:57,733 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext
+2019-09-12 17:31:57,745 - DEBUG - [LDAP][authen]Connection Bind Complete!
+2019-09-12 17:31:57,747 - ERROR - [LDAP][authen]type object 'filter' has no attribute 'strip'
+2019-09-12 17:31:57,747 - DEBUG - [AuthorizedModels][__login_by_ldap]None
+2019-09-12 17:32:42,784 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:32:42,784 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext
+2019-09-12 17:32:42,795 - DEBUG - [LDAP][authen]Connection Bind Complete!
+2019-09-12 17:32:42,798 - DEBUG - [LDAP][authen]False
+2019-09-12 17:32:42,799 - ERROR - [LDAP][authen]type object 'filter' has no attribute 'strip'
+2019-09-12 17:32:42,799 - DEBUG - [AuthorizedModels][__login_by_ldap]None
+2019-09-12 17:33:23,149 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:33:23,149 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext
+2019-09-12 17:33:23,159 - DEBUG - [LDAP][authen]False
+2019-09-12 17:33:23,166 - DEBUG - [AuthorizedModels][__login_by_ldap]False
+2019-09-12 17:33:52,099 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:33:52,099 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext
+2019-09-12 17:33:52,115 - DEBUG - [LDAP][authen]False
+2019-09-12 17:33:52,123 - DEBUG - [AuthorizedModels][__login_by_ldap]False
+2019-09-12 17:35:30,479 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:35:30,480 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext
+2019-09-12 17:35:30,493 - DEBUG - [LDAP][authen]False
+2019-09-12 17:35:30,499 - DEBUG - [AuthorizedModels][__login_by_ldap]False
+2019-09-12 17:36:46,920 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:36:46,921 - DEBUG - [LDAP][authen]ldap://172.16.17.18:389 - cleartext
+2019-09-12 17:36:46,933 - DEBUG - [LDAP][authen]False
+2019-09-12 17:36:46,938 - DEBUG - [AuthorizedModels][__login_by_ldap]False
+2019-09-12 17:36:58,147 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:36:58,158 - DEBUG - [LDAP][authen]False
+2019-09-12 17:36:58,162 - DEBUG - [AuthorizedModels][__login_by_ldap]False
+2019-09-12 17:38:09,974 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:38:09,985 - DEBUG - [LDAP][authen]False
+2019-09-12 17:38:09,994 - DEBUG - [AuthorizedModels][__login_by_ldap]False
+2019-09-12 17:39:07,277 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:39:07,394 - DEBUG - [LDAP][authen]False
+2019-09-12 17:39:07,464 - DEBUG - [AuthorizedModels][__login_by_ldap]False
+2019-09-12 17:39:23,354 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:39:23,367 - DEBUG - [LDAP][authen]False
+2019-09-12 17:39:23,374 - DEBUG - [AuthorizedModels][__login_by_ldap]False
+2019-09-12 17:39:39,524 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:39:39,808 - DEBUG - [LDAP][authen]True
+2019-09-12 17:39:39,954 - DEBUG - [LDAP][authen]Connection Bind Complete!
+2019-09-12 17:39:39,954 - ERROR - [LDAP][authen]type object 'filter' has no attribute 'strip'
+2019-09-12 17:39:39,954 - DEBUG - [AuthorizedModels][__login_by_ldap]None
+2019-09-12 17:40:12,044 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:40:12,206 - DEBUG - [LDAP][authen]True
+2019-09-12 17:40:12,319 - DEBUG - [LDAP][authen]Connection Bind Complete!
+2019-09-12 17:40:12,319 - DEBUG - [AuthorizedModels][__login_by_ldap]True

@@ -19,7 +19,7 @@ class AuthorizedModels():
         user_result = self.__check_existed()
         if user_result:
             ldap_result = self.__login_by_ldap()
-            if ldap_result is True:
+            if ldap_result:
                 res = {"status": True, "code": 0, "msg": ""}
                 user = {
                     "username": user_result[0],
@@ -56,7 +56,8 @@ class AuthorizedModels():
     def __login_by_ldap(self):
         try:
             result = LDAP().authen(self.params['username'], self.params['password'])
-            if result is True:
+            logger.debug('[{}][{}]{}'.format(AuthorizedModels.__name__, self.__login_by_ldap.__name__, result))
+            if result:
                 return True
         except Exception as e:
             logger.error('[{}][{}]{}'.format(AuthorizedModels.__name__, self.__login_by_ldap.__name__, e))

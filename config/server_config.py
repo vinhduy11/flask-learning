@@ -11,7 +11,7 @@ DB_DATABASE='data_service'
 
 #Credentials
 AUTHORIZED_FROM='ldap' #local or ldap
-LDAP_SERVER=''
+LDAP_SERVER='172.16.17.18'
 LDAP_PORT=389
 LDAP_TLS=True
 LDAP_USER=''
