@@ -376,3 +376,11 @@
 2019-09-12 17:40:12,206 - DEBUG - [LDAP][authen]True
 2019-09-12 17:40:12,319 - DEBUG - [LDAP][authen]Connection Bind Complete!
 2019-09-12 17:40:12,319 - DEBUG - [AuthorizedModels][__login_by_ldap]True
+2019-09-12 17:54:16,560 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:54:16,561 - ERROR - [AuthorizedModels][__login_by_ldap]'LDAP' object has no attribute '_LDAP__create_connection'
+2019-09-12 17:55:00,073 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:55:00,074 - ERROR - [AuthorizedModels][__login_by_ldap]'LDAP' object has no attribute '_LDAP__create_connection'
+2019-09-12 17:55:31,042 - DEBUG - [AuthorizedModels][__check_existed]('duy.dinh', 'duy dinh', 'Admin')
+2019-09-12 17:55:31,177 - DEBUG - [LDAP][authen]True
+2019-09-12 17:55:31,300 - DEBUG - [LDAP][authen]Connection Bind Complete!
+2019-09-12 17:55:31,387 - DEBUG - [AuthorizedModels][__login_by_ldap]True
